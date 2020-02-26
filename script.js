@@ -5,6 +5,7 @@ document.querySelector("#autocomplete-input").addEventListener("keyup", e => {
     cards.forEach(card => {
       card.textContent.indexOf(search) >= 0
         ? card.classList.remove("hidden")
-        : card.classList.add("hidden");
+        : card.classList.add("hidden")
     });
 });
+

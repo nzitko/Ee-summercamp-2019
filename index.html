@@ -21,8 +21,11 @@
           <nav class="blue">
               <div class="container">
                   <div class="wrapper">
-                      <a href="#" class="brand-logo">Croatian cities</a>
-                      <ul class="right">
+                      <a href="#home" class="brand-logo">Cro cities</a>
+                      <a href="#home" data-target="mobile-nav" class="sidenav-trigger">
+                          <i class="material-icons">menu</i>
+                      </a>
+                      <ul class="right hide-on-med-and-down">
                           <li>
                               <a href="#home">Home</a>
                           </li>
@@ -37,6 +40,50 @@
               </div>
           </nav>
       </div>
+      <ul class="sidenav" id="mobile-nav">
+        <li>
+            <a href="#home">Home</a>
+        </li>
+        <li>
+            <a href="#search">Search</a>
+        </li>
+        <li>
+            <a href="#popular">Popular cities</a>
+        </li>
+    </ul>
+
+    <section class="slider" id="all">
+        <ul class="slides">
+            <li>
+              <img src="img/zagreb-slider.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h2>Beautiful parks</h2>
+                <h5 class="light grey-text text-lighten-3 hide-on-small-only">The dream vacation</h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/split-slider.jpg"> <!-- random image -->
+              <div class="caption left-align">
+                <h2>Breathtaking coastline</h2>
+                <h5 class="light grey-text text-lighten-3 hide-on-small-only">The dream vacation</h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/rijeka-slider.jpg"> <!-- random image -->
+              <div class="caption right-align">
+                <h2>Historic sites to visit</h2>
+                <h5 class="light grey-text text-lighten-3 hide-on-small-only">The dream vacation</h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/osijek-slider.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h2>Glorious nature</h2>
+                <h5 class="light grey-text text-lighten-3 hide-on-small-only">The dream vacation</h5>
+              </div>
+            </li>
+          </ul>
+    </section>
 
       <section id ="search" class="section section-search teal darken-1 white-text center
       scrollspy">
@@ -57,7 +104,7 @@
             <div class="row">
                 <h4 class="center"><span class="blue-text">Popular</span> cities in Croatia</h4>
                 <div class="col s12 m4">
-                    <div class="card">
+                    <div class="card small">
                         <div class="card-image">
                             <img src="img/zagreb.jpg" alt="zagreb">
                             <span class="card-title">Zagreb</span>
@@ -65,10 +112,11 @@
                         <div class="card-content">
                             The capital and largest city of Croatia.
                         </div>
+                        <p class="center"><a href="zagreb.html">Click for more info</a></p>
                     </div>
                 </div>
                 <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card small">
                             <div class="card-image">
                                 <img src="img/split.jpg" alt="split">
                                 <span class="card-title">Split</span>
@@ -76,10 +124,11 @@
                             <div class="card-content">
                                 The largest city of Dalmatia.
                             </div>
+                            <p class="center"><a href="split.html">Click for more info</a></p>
                         </div>
                 </div>
                 <div class="col s12 m4">
-                    <div class="card">
+                    <div class="card small">
                         <div class="card-image">
                             <img src="img/rijeka.jpg" alt="rijeka">
                             <span class="card-title">Rijeka</span>
@@ -87,12 +136,13 @@
                         <div class="card-content">
                             The largest port city of Croatia.
                         </div>
+                        <p class="center"><a href="#">Click for more info</a></p>
                    </div>
              </div>
         </div>
         <div class="row">
                 <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card small">
                             <div class="card-image">
                                 <img src="img/osijek.jpg" alt="osijek">
                                 <span class="card-title">Osijek</span>
@@ -100,10 +150,11 @@
                             <div class="card-content">
                                 The largest city of Slavonia.
                             </div>
+                            <p class="center"><a href="#">Click for more info</a></p>
                         </div>
                     </div>
                     <div class="col s12 m4">
-                            <div class="card">
+                            <div class="card small">
                                 <div class="card-image">
                                     <img src="img/zadar.jpg" alt="zadar">
                                     <span class="card-title">Zadar</span>
@@ -111,23 +162,25 @@
                                 <div class="card-content">
                                     A city in northern Dalmatia.
                                 </div>
+                                <p class="center"><a href="#">Click for more info</a></p>
                             </div>
                     </div>
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card small">
                             <div class="card-image">
                                 <img src="img/dubrovnik.jpg" alt="dubrovnik">
                                 <span class="card-title">Dubrovnik</span>
                             </div>
                             <div class="card-content">
-                                The most popular toursit destination in Croatia.
+                                The most popular tourist destination in Croatia.
                             </div>
+                            <p class="center"><a href="#">Click for more info</a></p>
                        </div>
                  </div>
           </div>
          <div class="row">
                 <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card small">
                             <div class="card-image">
                                 <img src="img/slavonskibrod.jpg" alt="slavonskibrod">
                                 <span class="card-title">Slavonski Brod</span>
@@ -135,10 +188,11 @@
                             <div class="card-content">
                                 A city on the Sava river.
                             </div>
+                            <p class="center"><a href="#">Click for more info</a></p>
                         </div>
                     </div>
                     <div class="col s12 m4">
-                            <div class="card">
+                            <div class="card small">
                                 <div class="card-image">
                                     <img src="img/varazdin.jpg" alt="varazdin">
                                     <span class="card-title">Varazdin</span>
@@ -146,17 +200,19 @@
                                 <div class="card-content">
                                     A city in the Zagorje region.
                                 </div>
+                                <p class="center"><a href="#">Click for more info</a></p>
                             </div>
                     </div>
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card small">
                             <div class="card-image">
-                                <img src="img/pula.jpg" alt="pula">
+                                <img class="image" src="img/pula.jpg" alt="pula">
                                 <span class="card-title">Pula</span>
                             </div>
                             <div class="card-content">
                                 The main city of the Istrian peninsula.
                             </div>
+                            <p class="center"><a href="#">Click for more info</a></p>
                        </div>
                  </div>
           </div>
@@ -191,6 +247,19 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
      <script src="script.js"></script>
 
+     <script>
+        const sideNav = document.querySelector('.sidenav');
+        M.Sidenav.init(sideNav, {});
+
+        const slider = document.querySelector('#all');
+        M.Slider.init(slider, {
+            indicators:false,
+            height:500,
+            transition:500,
+            interval:6000
+        });
+
+     </script>
     </body>
 </html>
       

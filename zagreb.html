@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <title>Zagreb - Croatian cities</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  
+  <body id="home" class="scrollspy">
+        <div class="navbar-fixed">
+            <nav class="blue">
+                <div class="container">
+                    <div class="wrapper">
+                        <a href="index.html" class="brand-logo">Cro cities</a>
+                        <a href="index.html" data-target="mobile-nav" class="sidenav-trigger">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li>
+                                <a href="#home">Home - Zagreb</a>
+                            </li>
+                            <li>
+                                <a href="#location">Map</a>
+                            </li>
+                            <li>
+                                <a href="#sites">Sites to visit</a>
+                            </li>
+                            <li>
+                                <a href="#market">Restaurants and shopping</a>
+                            </li>
+                            <li>
+                                <a href="#transport">Transportation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-nav">
+            <li>
+                <a href="#home">Home - Zagreb</a>
+            </li>
+            <li>
+                <a href="#location">Map</a>
+            </li>
+            <li>
+                <a href="#sites">Sites to visit</a>
+            </li>
+            <li>
+                <a href="#market">Restaurants and shopping</a>
+            </li>
+            <li>
+                <a href="#transport">Transportation</a>
+            </li>
+       </ul>
+
+       <section class="slider">
+        <ul class="slides">
+            <li>
+              <img src="img/zagreb-1.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h2>The city of Zagreb</h2>
+                <h5 class="white-text hide-on-small-only">The cathedral</h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/zagreb-2.jpg"> <!-- random image -->
+              <div class="caption left-align">
+                <h2>The city of Zagreb</h2>
+                <h5 class="white-text hide-on-small-only">King Tomislav square</h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/zagreb-3.jpg"> <!-- random image -->
+              <div class="caption right-align">
+                <h2>The city of Zagreb</h2>
+                <h5 class="white-text hide-on-small-only">Ban Jelačić square</h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/zagreb-4.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h2>The city of Zagreb</h2>
+                <h5 class="white-text hide-on-small-only">Nikola Šubić Zrinjski square</h5>
+              </div>
+            </li>
+            <li>
+                <img src="img/zagreb-6.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                  <h2>The city of Zagreb</h2>
+                  <h5 class="white-text hide-on-small-only">Maksimir park</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/zagreb-5.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                  <h2>The city of Zagreb</h2>
+                  <h5 class="white-text hide-on-small-only">Ilica street</h5>
+                </div>
+              </li>
+          </ul>
+    </section>
+
+    <section id ="location" class="blue darken-1 white-text center">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3>Map of Zagreb</h3>
+                    <img class="materialboxed" width="100%" src="img/zagreb-map.jpeg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sites" class="section section-popular scrollspy">
+        <div class="container">
+            <div class="row">
+                <h4 class="center"><span class="blue-text">Popular</span> sites in Zagreb</h4>
+                <div class="col s12 m4">
+                    <div class="card medium">
+                        <div class="card-image" id="image-zg">
+                            <img src="img/jelacic.jpg" alt="zagreb">
+                            <span class="card-title">Ban Jelačić square</span>
+                        </div>
+                        <div class="card-content">
+                            The most famous Zagreb square.<br></br>
+                        <p class="center"><a href="#">Click for location</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card medium">
+                        <div class="card-image" id="image-zg">
+                            <img src="img/katedrala-zagreb.jpg" alt="zagreb">
+                            <span class="card-title">Zagreb Cathedral</span>
+                        </div>
+                        <div class="card-content">
+                            The tallest building in Croatia.<br></br>
+                            <p class="center"><a href="https://www.google.com/maps/@45.8145681,15.9784712,3a,75y,119.15h,90t/data=!3m7!1e1!3m5!1sdZJiCZxVXuYjfBXJLBoZkQ!2e0!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fpanoid%3DdZJiCZxVXuYjfBXJLBoZkQ%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D128.66304%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656">Click for location</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card medium">
+                        <div class="card-image" id="image-zg">
+                            <img src="img/ilica.jpg" alt="zagreb">
+                            <span class="card-title">Ilica street</span>
+                        </div>
+                        <div class="card-content">
+                            One of the longest streets in Croatia.<br></br>
+                            <p class="center"><a href="#">Click for location</a></p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card medium">
+                    <div class="card-image" id="image-zg">
+                        <img src="img/zrinjevac.jpg" alt="zagreb">
+                        <span class="card-title">Nikola Šubić Zrinjski park</span>
+                    </div>
+                    <div class="card-content">
+                        Famous Zagreb park. Eventful in december.<br></br>
+                        <p class="center"><a href="#">Click for location</a></p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col s12 m4">
+                            <div class="card medium">
+                                <div class="card-image" id="image-zg">
+                                    <img src="img/tomislavac.jpg" alt="zadar">
+                                    <span class="card-title">King Tomislav square</span>
+                                </div>
+                                <div class="card-content">
+                                    A square which contains the main Zagreb train station.<br></br>
+                                    <p class="center"><a href="#">Click for location</a></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card medium">
+                            <div class="card-image" id="image-zg">
+                                <img src="img/paviljon.jpg" alt="dubrovnik">
+                                <span class="card-title">Pavilion Meštrović</span>
+                            </div>
+                            <div class="card-content">
+                                Pavilion located on the Trg Žrtava Fašizma square.<br></br>
+                                <p class="center"><a href="#">Click for location</a></p> 
+                            </div>
+                       </div>
+                 </div>
+          </div>
+         <div class="row">
+                <div class="col s12 m4">
+                        <div class="card medium">
+                            <div class="card-image" id="image-zg">
+                                <img src="img/maksimir.jpg" alt="slavonskibrod">
+                                <span class="card-title">Maksimir park</span>
+                            </div>
+                            <div class="card-content">
+                                The largest park in Croatia. Home to the Zagreb Zoo.<br></br>
+                                <p class="center"><a href="#">Click for location</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                            <div class="card medium">
+                                <div class="card-image" id="image-zg">
+                                    <img src="img/hnk-zg.jpg" alt="varazdin">
+                                    <span class="card-title">Republic of Croatia square</span>
+                                </div>
+                                <div class="card-content">
+                                    Home to the Croatian National Theatre of Zagreb.<br></br>
+                                    <p class="center"><a href="#">Click for location</a></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card medium">
+                            <div class="card-image" id="image-zg">
+                                <img class="image" src="img/cibona.jpeg" alt="pula">
+                                <span class="card-title">Cibona tower</span>
+                            </div>
+                            <div class="card-content">
+                                One of the tallest and the most famous skyscraper in Croatia.<br></br>
+                                <p class="center"><a href="#">Click for location</a></p>
+                            </div>
+                       </div>
+                 </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m4">
+                    <div class="card medium">
+                        <div class="card-image" id="image-zg">
+                            <img src="img/gric.jpeg" alt="slavonskibrod">
+                            <span class="card-title">Grič tower</span>
+                        </div>
+                        <div class="card-content">
+                            Contains the Grič cannon that fires every day at noon.<br></br>
+                            <p class="center"><a href="#">Click for location</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                        <div class="card medium">
+                            <div class="card-image" id="image-zg">
+                                <img src="img/lisinski.jpg" alt="varazdin">
+                                <span class="card-title">Vatroslav Lisinski hall</span>
+                            </div>
+                            <div class="card-content">
+                                The biggest concert hall in Croatia.<br></br>
+                                <p class="center"><a href="#">Click for location</a></p>
+                            </div>
+                        </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card medium">
+                        <div class="card-image" id="image-zg">
+                            <img class="image" src="img/arena.jpeg" alt="pula">
+                            <span class="card-title">Zagreb arena</span>
+                        </div>
+                        <div class="card-content">
+                            The biggest sports arena in Croatia.<br></br>
+                            <p class="center"><a href="#">Click for location</a></p>
+                        </div>
+                   </div>
+             </div>
+      </div>
+      </div>
+     </section>
+
+<section id="market">
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+        <li class="collection-header"><h4>Popular restaurants in Zagreb</h4></li>
+        <ul class="collection">
+            <li class="collection-item avatar">
+              <i class="material-icons">restaurant</i><br>
+              <span class="title blue white-text darken-1">Zinfandel's</span>
+              <p>Antuna Mihanovića 1, Zagreb <br>
+              <a href="https://www.google.com/search?q=restaurants%20in%20zagreb&oq=restaurants+in+za&aqs=chrome.1.69i57j0l7.3803j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk01vroiQSGs-vClVux2GNNicuDo42A:1582727518427&npsic=0&rflfq=1&rlha=0&rllag=45810098,15978073,550&tbm=lcl&rldimm=485075762219197176&lqi=ChVyZXN0YXVyYW50cyBpbiB6YWdyZWJaJAoLcmVzdGF1cmFudHMiFXJlc3RhdXJhbnRzIGluIHphZ3JlYg&phdesc=kO5w1LJaVSs&ved=2ahUKEwir8Iu8t-_nAhVMzqQKHVm8CsUQvS4wAXoECAsQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9&rlst=f#rlfi=hd:;si:485075762219197176,l,ChVyZXN0YXVyYW50cyBpbiB6YWdyZWJaJAoLcmVzdGF1cmFudHMiFXJlc3RhdXJhbnRzIGluIHphZ3JlYg,y,kO5w1LJaVSs;mv:[[45.823750499999996,16.014221900000003],[45.793454999999994,15.963974899999997]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9">Click for location</a>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons">restaurant</i><br>
+              <span class="title blue white-text darken-1">La Štruk</span>
+              <p>Skalinska 5, Zagreb<br>
+              <a href="https://www.google.com/search?q=restaurants%20in%20zagreb&oq=restaurants+in+za&aqs=chrome.1.69i57j0l7.3803j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk01vroiQSGs-vClVux2GNNicuDo42A:1582727518427&npsic=0&rflfq=1&rlha=0&rllag=45810098,15978073,550&tbm=lcl&rldimm=485075762219197176&lqi=ChVyZXN0YXVyYW50cyBpbiB6YWdyZWJaJAoLcmVzdGF1cmFudHMiFXJlc3RhdXJhbnRzIGluIHphZ3JlYg&phdesc=kO5w1LJaVSs&ved=2ahUKEwir8Iu8t-_nAhVMzqQKHVm8CsUQvS4wAXoECAsQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9&rlst=f#rlfi=hd:;si:7342510568818240418,l,ChVyZXN0YXVyYW50cyBpbiB6YWdyZWJaJAoLcmVzdGF1cmFudHMiFXJlc3RhdXJhbnRzIGluIHphZ3JlYg,y,ngLOIIJ_MH8;mv:[[45.823750499999996,16.014221900000003],[45.793454999999994,15.963974899999997]]">Click for location</a>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons">restaurant</i><br>
+                <span class="title blue white-text darken-1">Herritage</span>
+                <p>Petrinjska 14, Zagreb<br>
+                <a href="https://www.google.com/search?q=restaurants%20in%20zagreb&oq=restaurants+in+za&aqs=chrome.1.69i57j0l7.3803j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk01vroiQSGs-vClVux2GNNicuDo42A:1582727518427&npsic=0&rflfq=1&rlha=0&rllag=45810098,15978073,550&tbm=lcl&rldimm=485075762219197176&lqi=ChVyZXN0YXVyYW50cyBpbiB6YWdyZWJaJAoLcmVzdGF1cmFudHMiFXJlc3RhdXJhbnRzIGluIHphZ3JlYg&phdesc=kO5w1LJaVSs&ved=2ahUKEwir8Iu8t-_nAhVMzqQKHVm8CsUQvS4wAXoECAsQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9&rlst=f#rlfi=hd:;si:5258601354323442874,l,ChVyZXN0YXVyYW50cyBpbiB6YWdyZWJaJAoLcmVzdGF1cmFudHMiFXJlc3RhdXJhbnRzIGluIHphZ3JlYg,y,hkqo66RCtO8;mv:[[45.823750499999996,16.014221900000003],[45.793454999999994,15.963974899999997]]">Click for location</a>
+                <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons">restaurant</i><br>
+                <span class="title blue white-text darken-1">Pri Zvoncu</span>
+                <p>Vrbik XII 1, Zagreb<br>
+                <a href="https://www.google.com/search?q=restaurants%20in%20zagreb&oq=restaurants+in+za&aqs=chrome.1.69i57j0l7.3803j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk01vroiQSGs-vClVux2GNNicuDo42A:1582727518427&npsic=0&rflfq=1&rlha=0&rllag=45810098,15978073,550&tbm=lcl&rldimm=485075762219197176&lqi=ChVyZXN0YXVyYW50cyBpbiB6YWdyZWJaJAoLcmVzdGF1cmFudHMiFXJlc3RhdXJhbnRzIGluIHphZ3JlYg&phdesc=kO5w1LJaVSs&ved=2ahUKEwir8Iu8t-_nAhVMzqQKHVm8CsUQvS4wAXoECAsQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9&rlst=f#rlfi=hd:;si:6311996678816095427,l,ChVyZXN0YXVyYW50cyBpbiB6YWdyZWJaJAoLcmVzdGF1cmFudHMiFXJlc3RhdXJhbnRzIGluIHphZ3JlYg,y,ENEuv8JMtGo;mv:[[45.823750499999996,16.014221900000003],[45.793454999999994,15.963974899999997]]">Click for location</a>
+                <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons">restaurant</i><br>
+                <span class="title blue white-text darken-1">Dubravkin Put</span>
+                <p>Dubravkin put 2, Zagreb<br>
+                <a href="https://www.google.com/search?q=restaurants%20in%20zagreb&oq=restaurants+in+za&aqs=chrome.1.69i57j0l7.3803j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk01vroiQSGs-vClVux2GNNicuDo42A:1582727518427&npsic=0&rflfq=1&rlha=0&rllag=45810098,15978073,550&tbm=lcl&rldimm=485075762219197176&lqi=ChVyZXN0YXVyYW50cyBpbiB6YWdyZWJaJAoLcmVzdGF1cmFudHMiFXJlc3RhdXJhbnRzIGluIHphZ3JlYg&phdesc=kO5w1LJaVSs&ved=2ahUKEwir8Iu8t-_nAhVMzqQKHVm8CsUQvS4wAXoECAsQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9&rlst=f#rlfi=hd:;si:5700343622219825798,l,ChVyZXN0YXVyYW50cyBpbiB6YWdyZWJaJAoLcmVzdGF1cmFudHMiFXJlc3RhdXJhbnRzIGluIHphZ3JlYg,y,96G8N7RxFdY;mv:[[45.823750499999996,16.014221900000003],[45.793454999999994,15.963974899999997]]">Click for location</a>
+                <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+            </li>
+          </ul>
+          </div>
+          </div>
+          </div>
+          <div class="container">
+            <div class="row">
+                <div class="col s12">
+                <li class="collection-header"><h4>Shopping in Zagreb</h4></li>
+                <ul class="collection">
+                    <li class="collection-item avatar">
+                      <i class="material-icons">shopping_cart</i><br>
+                      <span class="title blue white-text darken-1">Arena Centar</span>
+                      <p>Vice Vukova 6, Lanište, Zagreb <br>
+                      <a href="https://www.google.com/search?q=shopping%20in%20zagreb&oq=shopping+in+zagreb&aqs=chrome..69i57j0l7.3947j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk02SnK9UJXPo3N8Pjs-41ssRmEkvAQ:1582728909046&npsic=0&rflfq=1&rlha=0&rllag=45784918,15931771,3993&tbm=lcl&rldimm=6761148467181658315&lqi=ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg&ved=2ahUKEwih0JjTvO_nAhU0pnEKHbT3CdUQvS4wA3oECAwQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:6761148467181658315,l,ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg;mv:[[45.8409596,16.0625089],[45.7505641,15.844599899999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2">Click for location</a>
+                      <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                      <i class="material-icons">shopping_cart</i><br>
+                      <span class="title blue white-text darken-1">Avenue Mall</span>
+                      <p>Avenija Dubrovnik 16, Siget, Zagreb<br>
+                      <a href="https://www.google.com/search?q=shopping%20in%20zagreb&oq=shopping+in+zagreb&aqs=chrome..69i57j0l7.3947j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk02SnK9UJXPo3N8Pjs-41ssRmEkvAQ:1582728909046&npsic=0&rflfq=1&rlha=0&rllag=45784918,15931771,3993&tbm=lcl&rldimm=6761148467181658315&lqi=ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg&ved=2ahUKEwih0JjTvO_nAhU0pnEKHbT3CdUQvS4wA3oECAwQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:15626502115755731432,l,ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg;mv:[[45.792417526888364,16.00294189277338],[45.757815628622424,15.907154844433535],null,[45.77511926148807,15.955048368603457],14]">Click for location</a>
+                      <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons">shopping_cart</i><br>
+                        <span class="title blue white-text darken-1">Point Shopping Centar</span>
+                        <p>Rudeška cesta 169a, Vrbani, Zagreb<br>
+                        <a href="https://www.google.com/search?q=shopping%20in%20zagreb&oq=shopping+in+zagreb&aqs=chrome..69i57j0l7.3947j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk02SnK9UJXPo3N8Pjs-41ssRmEkvAQ:1582728909046&npsic=0&rflfq=1&rlha=0&rllag=45784918,15931771,3993&tbm=lcl&rldimm=6761148467181658315&lqi=ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg&ved=2ahUKEwih0JjTvO_nAhU0pnEKHbT3CdUQvS4wA3oECAwQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:14662993871535987686,l,ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg;mv:[[45.81143388015087,15.948012941931324],[45.77684378676215,15.85222589359148],null,[45.794141517140375,15.900119417761402],14]">Click for location</a>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons">shopping_cart</i><br>
+                        <span class="title blue white-text darken-1">Shopping centar Prečko</span>
+                        <p>Slavenskoga 1, Prečko, Zagreb<br>
+                        <a href="https://www.google.com/search?q=shopping%20in%20zagreb&oq=shopping+in+zagreb&aqs=chrome..69i57j0l7.3947j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk02SnK9UJXPo3N8Pjs-41ssRmEkvAQ:1582728909046&npsic=0&rflfq=1&rlha=0&rllag=45784918,15931771,3993&tbm=lcl&rldimm=6761148467181658315&lqi=ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg&ved=2ahUKEwih0JjTvO_nAhU0pnEKHbT3CdUQvS4wA3oECAwQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:14198160290737226252,l,ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg;mv:[[45.81143388015087,15.948012941931324],[45.77684378676215,15.85222589359148],null,[45.794141517140375,15.900119417761402],14]">Click for location</a>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons">shopping_cart</i><br>
+                        <span class="title blue white-text darken-1">City Centar One West</span>
+                        <p>Jankomir 33, Jankomir, Zagreb<br>
+                        <a href="https://www.google.com/search?q=shopping%20in%20zagreb&oq=shopping+in+zagreb&aqs=chrome..69i57j0l7.3947j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk02SnK9UJXPo3N8Pjs-41ssRmEkvAQ:1582728909046&npsic=0&rflfq=1&rlha=0&rllag=45784918,15931771,3993&tbm=lcl&rldimm=6761148467181658315&lqi=ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg&ved=2ahUKEwih0JjTvO_nAhU0pnEKHbT3CdUQvS4wA3oECAwQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:2827479042698835588;mv:[[45.83023569294352,15.936313944299286],[45.761057387619346,15.744739847619599],null,[45.795657275000146,15.840526895959442],13]">Click for location</a>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons">shopping_cart</i><br>
+                        <span class="title blue white-text darken-1">Branimir mingle mall</span>
+                        <p>Branimirova 29, Donji Grad, Zagreb<br>
+                        <a href="https://www.google.com/search?q=shopping%20in%20zagreb&oq=shopping+in+zagreb&aqs=chrome..69i57j0l7.3947j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk02SnK9UJXPo3N8Pjs-41ssRmEkvAQ:1582728909046&npsic=0&rflfq=1&rlha=0&rllag=45784918,15931771,3993&tbm=lcl&rldimm=6761148467181658315&lqi=ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg&ved=2ahUKEwih0JjTvO_nAhU0pnEKHbT3CdUQvS4wA3oECAwQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:5691613691062837789,l,ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg;mv:[[45.82927862444507,16.012792489099184],[45.79469961209656,15.91700544075934],null,[45.81199180190779,15.964898964929262],14]">Click for location</a>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons">shopping_cart</i><br>
+                        <span class="title blue white-text darken-1">Importanne centar</span>
+                        <p>Trg Ante Starčevića 7, Donji Grad, Zagreb<br>
+                        <a href="https://www.google.com/search?q=shopping%20in%20zagreb&oq=shopping+in+zagreb&aqs=chrome..69i57j0l7.3947j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk02SnK9UJXPo3N8Pjs-41ssRmEkvAQ:1582728909046&npsic=0&rflfq=1&rlha=0&rllag=45784918,15931771,3993&tbm=lcl&rldimm=6761148467181658315&lqi=ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg&ved=2ahUKEwih0JjTvO_nAhU0pnEKHbT3CdUQvS4wA3oECAwQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:1145844058810156385,l,ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg;mv:[[45.82927862444507,16.012792489099184],[45.79469961209656,15.91700544075934],null,[45.81199180190779,15.964898964929262],14]">Click for location</a>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons">shopping_cart</i><br>
+                        <span class="title blue white-text darken-1">Centar Cvjetni Trg</span>
+                        <p>Trg Petra Preradovića 6, Donji Grad, Zagreb<br>
+                        <a href="https://www.google.com/search?q=shopping%20in%20zagreb&oq=shopping+in+zagreb&aqs=chrome..69i57j0l7.3947j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk02SnK9UJXPo3N8Pjs-41ssRmEkvAQ:1582728909046&npsic=0&rflfq=1&rlha=0&rllag=45784918,15931771,3993&tbm=lcl&rldimm=6761148467181658315&lqi=ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg&ved=2ahUKEwih0JjTvO_nAhU0pnEKHbT3CdUQvS4wA3oECAwQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:17446422623008752664,l,ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg;mv:[[45.82501786251129,15.989868700122088],[45.790436204054835,15.894081651782244],null,[45.80772971693133,15.941975175952166],14]">Click for location</a>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons">shopping_cart</i><br>
+                        <span class="title blue white-text darken-1">Centar Kaptol</span>
+                        <p>Nova Ves 17, Gornji Grad, Zagreb<br>
+                        <a href="https://www.google.com/search?q=shopping%20in%20zagreb&oq=shopping+in+zagreb&aqs=chrome..69i57j0l7.3947j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk02SnK9UJXPo3N8Pjs-41ssRmEkvAQ:1582728909046&npsic=0&rflfq=1&rlha=0&rllag=45784918,15931771,3993&tbm=lcl&rldimm=6761148467181658315&lqi=ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg&ved=2ahUKEwih0JjTvO_nAhU0pnEKHbT3CdUQvS4wA3oECAwQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:6324043295621711524,l,ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg;mv:[[45.82501786251129,15.989868700122088],[45.790436204054835,15.894081651782244],null,[45.80772971693133,15.941975175952166],14]">Click for location</a>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons">shopping_cart</i><br>
+                        <span class="title blue white-text darken-1">City Center One East</span>
+                        <p>Slavonska Avenija 11d, Vukomerec , Zagreb<br>
+                        <a href="https://www.google.com/search?q=shopping%20in%20zagreb&oq=shopping+in+zagreb&aqs=chrome..69i57j0l7.3947j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk02SnK9UJXPo3N8Pjs-41ssRmEkvAQ:1582728909046&npsic=0&rflfq=1&rlha=0&rllag=45784918,15931771,3993&tbm=lcl&rldimm=6761148467181658315&lqi=ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg&ved=2ahUKEwih0JjTvO_nAhU0pnEKHbT3CdUQvS4wA3oECAwQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:11089931970186888373,l,ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg;mv:[[45.81358582008631,16.065598078417906],[45.79629412512562,16.017704554247985],null,[45.80494064351987,16.041651316332945],15]">Click for location</a>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+                    </li>
+                    <li class="collection-item avatar">
+                        <i class="material-icons">shopping_cart</i><br>
+                        <span class="title blue white-text darken-1">Supernova Buzin</span>
+                        <p>Avenija Većeslava Holjevca 62, Buzin , Zagreb<br>
+                        <a href="https://www.google.com/search?q=shopping%20in%20zagreb&oq=shopping+in+zagreb&aqs=chrome..69i57j0l7.3947j0j7&sourceid=chrome&ie=UTF-8&sxsrf=ALeKk02SnK9UJXPo3N8Pjs-41ssRmEkvAQ:1582728909046&npsic=0&rflfq=1&rlha=0&rllag=45784918,15931771,3993&tbm=lcl&rldimm=6761148467181658315&lqi=ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg&ved=2ahUKEwih0JjTvO_nAhU0pnEKHbT3CdUQvS4wA3oECAwQIA&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:5937023118075551267,l,ChJzaG9wcGluZyBpbiB6YWdyZWJaHgoIc2hvcHBpbmciEnNob3BwaW5nIGluIHphZ3JlYg;mv:[[45.774684647431194,16.01849685547529],[45.74007174447414,15.922709807135448],null,[45.757380879729794,15.97060333130537],14]">Click for location</a>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></a>
+                    </li>
+                  </ul>
+                  </div>
+                  </div>
+                  </div>
+     </section>
+
+     <section id="transport">
+        <div class="container">
+            <div class="row">
+                <h4 class="center">Transportation in Zagreb</h4>
+                <div class="col s12 m4">
+                    <div class="card medium">
+                        <div class="card-image" id="image-zg">
+                            <img src="img/tramvaj.jpg" alt="zagreb">
+                            <span class="card-title">Tram</span>
+                        </div>
+                        <div class="card-content">
+                            More than 20 tram lines go through the city at all times.<br></br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card medium">
+                        <div class="card-image" id="image-zg">
+                            <img src="img/bus-zg.jpg" alt="zagreb">
+                            <span class="card-title">Bus</span>
+                        </div>
+                        <div class="card-content">
+                            More than 200 bus lines go through the city at all times.<br></br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card medium">
+                        <div class="card-image" id="image-zg">
+                            <img src="img/taxi-zg.jpg" alt="zagreb">
+                            <span class="card-title">Taxi and Uber</span>
+                        </div>
+                        <div class="card-content">
+                            Hunderds of taxists and uber drivers ready at all times.<br></br>
+                        </div>
+                    </div>
+                </div>
+        </div>
+     </section>
+
+     <section class="blue darken-1 white-text center">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3>Map of Zagreb Tram lines</h3>
+                    <img class="materialboxed" id="tram-lines" width="100%" src="img/tram-linije.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-follow blue darken-1 white-text center">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3>Follow us</h3>
+                    <p>Follow us on social media for more information</p>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-facebook fa-4x"></i>
+                    </a>
+                    <a href="#" class="white-text">
+                            <i class="fab fa-twitter fa-4x"></i>
+                    </a>
+                    <a href="#" class="white-text">
+                            <i class="fab fa-instagram fa-4x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+      <footer class="section teal darken-1 white-text center">
+          <p class="flow-text">Croatian cities &copy; 2019</p>
+      </footer>
+
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+      const sideNav = document.querySelector('.sidenav');
+      M.Sidenav.init(sideNav, {});
+
+      const slider = document.querySelector('.slider');
+        M.Slider.init(slider, {
+            indicators:false,
+            height:500,
+            transition:500,
+            interval:6000
+        });
+
+    const mapImage = document.querySelector('.materialboxed');
+    M.Materialbox.init(mapImage, {});
+
+    const mapImageTram = document.querySelector('#tram-lines');
+    M.Materialbox.init(mapImageTram, {});
+
+  </script>
+</html>
